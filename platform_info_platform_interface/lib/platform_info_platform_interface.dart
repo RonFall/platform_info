@@ -12,7 +12,7 @@ abstract class PlatformInfoPlatform extends PlatformInterface {
   /// По умолчанию [_PlaceholderImplementation].
   static PlatformInfoPlatform get instance => _instance;
 
-  /// Иплементация текущего [instance] на опредленной платформе.
+  /// Имплементация текущего [instance] на определенной платформе.
   ///
   /// В коде платформы должна быть реализована функция, определяющая [instance].
   static set instance(PlatformInfoPlatform instance) {
