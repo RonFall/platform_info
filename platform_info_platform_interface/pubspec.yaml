@@ -1,0 +1,10 @@
+name: platform_info_platform_interface
+description: A common platform interface for the platform_info plugin.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  plugin_platform_interface: ^2.1.6

@@ -1,0 +1,25 @@
+name: platform_info_android
+description: Android implementation of the platform_info plugin.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+flutter:
+  plugin:
+    implements: platform_info
+    platforms:
+      android:
+        package: plugin.platform_info
+        pluginClass: PlatformInfoPlugin #Главный класс Android кода
+        dartPluginClass: PlatformInfoAndroid #Главный класс Dart кода
+
+dependencies:
+  flutter:
+    sdk: flutter
+  platform_info_platform_interface:
+    path: ../platform_info_platform_interface
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
