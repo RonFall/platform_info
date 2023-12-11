@@ -1,4 +1,4 @@
-#include "include/platform_info/platform_info_plugin.h"
+#include "include/platform_info_linux/platform_info_plugin.h"
 
 #include <flutter_linux/flutter_linux.h>
 #include <gtk/gtk.h>
